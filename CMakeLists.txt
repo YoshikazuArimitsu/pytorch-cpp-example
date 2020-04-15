@@ -12,6 +12,7 @@ endif(COMMAND cmake_policy)
 
 # for Amazon DeepLearning AMI
 # set(Torch_DIR "$ENV{HOME}/anaconda3/envs/pytorch_p36/lib/python3.6/site-packages/torch/share/cmake/Torch")
+set(Caffe2_DIR "../libtorch/share/cmake/Caffe2")
 set(Torch_DIR "../libtorch/share/cmake/Torch")
 
 find_package(Torch REQUIRED)
